@@ -19,6 +19,7 @@ function App() {
   const books = ["algorithm", "cpp", "c", "python", "data strcture", "java"];
   return (
     <div className="App">
+      <Counter></Counter>
       {/* <h1>JSX</h1>
         <div className="container">
           <h2>I am from BD</h2>
@@ -66,4 +67,12 @@ function Person(props) {
   );
 }
 
+function Counter(){
+  return(
+    <div>
+      <h1>Count: </h1>
+      <button>Increase</button>
+    </div>
+  )
+}
 export default App;
